@@ -4,21 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/purple_200"
     android:padding="30dp"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/firstText"
 
-        android:padding="10dp"
-        android:layout_marginTop="50dp"
-        android:textStyle="bold"
-        android:textColor="#FF5722"
-        android:textSize="26sp"
-        android:gravity="center"
-        android:text="Welcome to our Community"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Welcome to our Community"
+        android:textColor="#FFEB3B"
+        android:textSize="26sp"
+        android:textStyle="bold" />
     <TextView
         android:id="@+id/secondText"
         android:layout_below="@+id/firstText"
@@ -29,16 +30,17 @@
         android:text="I'm Rahim Uddin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
     <Button
         android:id="@+id/firstButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondText"
         android:background="@color/teal_200"
-        android:textSize="20sp"
-        android:textColor="#fff"
         android:pointerIcon="arrow"
         android:text="Click ME!"
-        android:layout_below="@+id/secondText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:textColor="#fff"
+        android:textSize="20sp" />
 
 
 
